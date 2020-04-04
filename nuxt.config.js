@@ -26,7 +26,7 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: ['~/assets/common.less', 'element-ui/lib/theme-chalk/index.css'],
+  css: ['element-ui/lib/theme-chalk/index.css', '~/assets/common.less'],
   /*
    ** Plugins to load before mounting the App
    */
