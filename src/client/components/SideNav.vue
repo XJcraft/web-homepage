@@ -9,12 +9,21 @@
           <a slot="reference" class="link">微信公众号</a>
           <img class="qrcode" src="/qrcode.jpg" alt="二维码" />
         </el-popover>
-        <a class="link" href="https://space.bilibili.com/8980695">Bilibili</a>
+        <a
+          class="link"
+          href="https://space.bilibili.com/8980695"
+          target="_blank"
+          >Bilibili</a
+        >
         <!-- <a class="link" href="">wiki</a> -->
-        <a class="link" href="http://map.locsian.com/">卫星地图</a>
+        <a class="link" href="http://map.locsian.com/" target="_blank"
+          >卫星地图</a
+        >
         <!-- <a class="link" href="">论坛</a> -->
         <div class="underline"></div>
-        <a class="link" href="https://apply.xj.locsian.com/req">注册</a>
+        <a class="link" href="https://apply.xj.locsian.com/req" target="_blank"
+          >注册</a
+        >
         <!-- <a class="link" href="">登录</a> -->
       </div>
     </div>
