@@ -1,6 +1,6 @@
 <template>
   <div class="full-layout">
-    <side-nav></side-nav>
+    <side-nav full></side-nav>
     <nuxt class="full-body" />
   </div>
 </template>

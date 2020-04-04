@@ -1,6 +1,6 @@
 <template>
   <nav class="side-nav">
-    <div class="container">
+    <div :class="{ full: full }" class="container">
       <nuxt-link to="/" class="logo">
         <img src="/logo.png" alt="XJCraft" />
       </nuxt-link>
@@ -30,7 +30,14 @@
   </nav>
 </template>
 <script>
-export default {}
+export default {
+  props: {
+    full: {
+      type: Boolean,
+      default: false
+    }
+  }
+}
 </script>
 <style lang="less">
 .side-nav {
@@ -43,6 +50,11 @@ export default {}
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
+
+    &.full {
+      width: 100%;
+      padding: 0 40px 0 60px;
+    }
   }
 
   .logo {
@@ -94,8 +106,8 @@ export default {}
       content: '';
       background: rgba(255, 255, 255, 1);
       width: 1px;
-      height: 20px;
-      margin: 0 20px;
+      height: 16px;
+      margin: 4px 20px;
     }
   }
 }
