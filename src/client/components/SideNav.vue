@@ -21,8 +21,8 @@
         >
         <!-- <a class="link" href="">论坛</a> -->
         <div class="underline"></div>
-        <a class="link" href="https://apply.xj.locsian.com/req" target="_blank"
-          >注册</a
+        <a class="link" href="https://jq.qq.com/?_wv=1027&k=Zo1qBYqx" target="_blank"
+          >加群</a
         >
         <!-- <a class="link" href="">登录</a> -->
       </div>

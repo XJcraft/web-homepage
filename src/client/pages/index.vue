@@ -2,9 +2,9 @@
   <div class="index-wrapper">
     <div>
       <div class="container index-content">
-        <p>我们是一个严肃的，有8年历史的</p>
+        <p>我们是一个严肃的，有9年历史的</p>
         <p>原版生存服务器</p>
-        <p class="small-desc">（已更新到1.15.2惹！）</p>
+        <p class="small-desc">（已更新到1.19.2惹！）</p>
         <button @click="nyan" class="btn-cat73">戳一下二喵屁股</button>
       </div>
       <div>
